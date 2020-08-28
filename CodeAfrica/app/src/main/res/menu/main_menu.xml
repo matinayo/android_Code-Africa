@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home_icon"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_all_categories"
+            android:icon="@drawable/category_icon"
+            android:title="@string/all_categories" />
+
+        <item
+            android:id="@+id/nav_take_quiz"
+            android:icon="@drawable/login_icon"
+            android:title="@string/take_quiz" />
+
+        <item
+            android:id="@+id/nav_select_language"
+            android:icon="@drawable/language_icon"
+            android:title="@string/select_language" />
+    </group>
+</menu>

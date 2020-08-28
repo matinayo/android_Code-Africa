@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FC9272</color>
+    <color name="colorPrimaryDark">#FF5B7F</color>
+    <color name="colorAccent">#ededed</color>
+
+    <color name="home_background">#FEFEFE</color>
+    <color name="white">#ffffff</color>
+
+    <!-- card colors -->
+    <color name="card1">#d4cbe5</color>
+    <color name="card2">#7adccf</color>
+    <color name="card3">#f7c59f</color>
+    <color name="card4">#b8d7f5</color>
+
+</resources>

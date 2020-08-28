@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User.LanguageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+
+            <ImageView
+                android:id="@+id/back_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:padding="15dp"
+                android:src="@drawable/back_icon" />
+
+            <ImageView
+                android:id="@+id/skip_pressed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@color/colorPrimary"
+                android:padding="5dp"
+                android:src="@drawable/skip_icon" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/brandon_grotesque_black"
+            android:padding="10dp"
+            android:text="@string/select_language"
+            android:textAllCaps="true"
+            android:textSize="24sp" />
+
+        <RelativeLayout
+            android:id="@+id/en_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/color_one"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                app:drawableLeftCompat="@android:drawable/title_bar_tall"
+                app:drawableStartCompat="@android:drawable/title_bar_tall"
+                app:drawableTint="@color/card1" />
+
+            <TextView
+                android:id="@+id/eng_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_toEndOf="@+id/color_one"
+                android:padding="5dp"
+                android:text="@string/english"
+                android:textSize="20sp"
+                app:drawableTint="@color/colorPrimaryDark"
+                app:fontFamily="@font/brandon_grotesque_black" />
+
+            <TextView
+                android:id="@+id/select_en"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/select_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ha_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/color_two"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                app:drawableLeftCompat="@android:drawable/title_bar_tall"
+                app:drawableStartCompat="@android:drawable/title_bar_tall"
+                app:drawableTint="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/ha_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_toEndOf="@+id/color_two"
+                android:padding="5dp"
+                android:text="@string/hausa"
+                android:textSize="20sp"
+                app:drawableTint="@color/colorPrimaryDark"
+                app:fontFamily="@font/brandon_grotesque_black" />
+
+            <TextView
+                android:id="@+id/select_ha"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/select_icon"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/yo_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/color_three"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                app:drawableLeftCompat="@android:drawable/title_bar_tall"
+                app:drawableStartCompat="@android:drawable/title_bar_tall"
+                app:drawableTint="@color/card3" />
+
+            <TextView
+                android:id="@+id/yo_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_toEndOf="@+id/color_three"
+                android:padding="5dp"
+                android:text="@string/yoruba"
+                android:textSize="20sp"
+                app:fontFamily="@font/brandon_grotesque_black" />
+
+            <TextView
+                android:id="@+id/select_yo"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/select_icon"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ib_layout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:background="@color/colorAccent">
+
+            <TextView
+                android:id="@+id/color_four"
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                app:drawableLeftCompat="@android:drawable/title_bar_tall"
+                app:drawableStartCompat="@android:drawable/title_bar_tall"
+                app:drawableTint="@color/card4" />
+
+            <TextView
+                android:id="@+id/ib_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="30dp"
+                android:layout_toEndOf="@+id/color_four"
+                android:padding="5dp"
+                android:text="@string/igbo"
+                android:textSize="20sp"
+                app:fontFamily="@font/brandon_grotesque_black" />
+
+            <TextView
+                android:id="@+id/select_ib"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/select_icon"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_alignParentBottom="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/programming" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
