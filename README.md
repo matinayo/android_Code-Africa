@@ -17,15 +17,10 @@ View apk file here : <a href="https://github.com/abdul-matin0/android_Code-Afric
 </p>
 
 <br><br>
-<b>Notes can be viewed in both grid and list view and can create /edit note:</b>
+<b>Home Screen:</b>
 <br>
-<b>Splash Screen and On-boarding screen </b>
-<br>
-<p><em>On-boarding screeen displays only when user first launches the app</em></p>
 <p>
-  <img src="https://github.com/abdul-matin0/EasyNotes_Android/blob/master/app/screenshots/easy-homelist.png" height="450px" width="250px">
-  <img src="https://github.com/abdul-matin0/EasyNotes_Android/blob/master/app/screenshots/easy-homegrid.png" height="450px" width="250px">
-  <img src="https://github.com/abdul-matin0/EasyNotes_Android/blob/master/app/screenshots/easy-create-note.png" height="450px" width="250px">
+  <img src="https://github.com/abdul-matin0/android_Code-Africa/blob/master/CodeAfrica/screenshots/home_screen.jpg" height="450px" width="250px">
 </p>
 
 <br><br>
