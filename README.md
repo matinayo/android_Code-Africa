@@ -19,27 +19,18 @@ View apk file here : <a href="https://github.com/abdul-matin0/android_Code-Afric
 </p>
 
 <br><br>
-<b>Home Screen:</b>
+<b>Home Screen and Animated Navigation Drawer for proper navigation</b>
 <br>
 <p>
   <img src="https://github.com/abdul-matin0/android_Code-Africa/blob/master/CodeAfrica/screenshots/home_screen.jpg" height="450px" width="250px">
+  <img src="https://github.com/abdul-matin0/android_Code-Africa/blob/master/CodeAfrica/screenshots/navigation_drawer.jpg" height="450px" width="250px">
 </p>
 
 <br><br>
-<b>If you long press on a note on the home screen or press on the delete icon when creating the note, the note would be deleted:</b>
+<b>Categories Screen displays list of course categories and when a course category is selected, another screen opens which displays a list of courses in the selected category</b>
 <br>
 <p>
-  <img src="https://github.com/abdul-matin0/EasyNotes_Android/blob/master/app/screenshots/easy-deletehome.png" height="450px" width="250px">
-  <img src="https://github.com/abdul-matin0/EasyNotes_Android/blob/master/app/screenshots/easy-deletenote.png" height="450px" width="250px">
- 
-</p>
-
-<br><br>
-<b>If all notes have been deleted an image indicating empty list would be shown. Press on the share icon when creating a note to share a copy of the note:</b>
-<br>
-<p>
-  <img src="https://github.com/abdul-matin0/EasyNotes_Android/blob/master/app/screenshots/easy-listempty.png" height="450px" width="250px">
-  <img src="https://github.com/abdul-matin0/EasyNotes_Android/blob/master/app/screenshots/easy-sharenote.png" height="450px" width="250px">
- 
+  <img src="https://github.com/abdul-matin0/android_Code-Africa/blob/master/CodeAfrica/screenshots/codeafrica-categories.gif" height="450px" width="250px">
+  <img src="https://github.com/abdul-matin0/android_Code-Africa/blob/master/CodeAfrica/screenshots/lesson.jpg" height="450px" width="250px">
 </p>
 
