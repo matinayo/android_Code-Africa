@@ -34,3 +34,18 @@ View apk file here : <a href="https://github.com/abdul-matin0/android_Code-Afric
   <img src="https://github.com/abdul-matin0/android_Code-Africa/blob/master/CodeAfrica/screenshots/lesson.jpg" height="450px" width="250px">
 </p>
 
+<br><br>
+<b>Users can change the language of the course to another language </b>
+<br>
+<p>
+  <img src="https://github.com/abdul-matin0/android_Code-Africa/blob/master/CodeAfrica/screenshots/codeafrica-change-lang.gif" height="450px" width="250px">
+</p>
+
+<br><br>
+<b>Users can practice with the quiz section </b>
+<br>
+<p>
+  <img src="https://github.com/abdul-matin0/android_Code-Africa/blob/master/CodeAfrica/screenshots/codeafrica-quiz.gif" height="450px" width="250px">
+  <img src="https://github.com/abdul-matin0/android_Code-Africa/blob/master/CodeAfrica/screenshots/quiz.jpg" height="450px" width="250px">
+</p>
+<br>
