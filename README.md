@@ -1,5 +1,6 @@
 # android_Code-Africa
 An android app that allows you to learn programming in different languages<br>
+View App Site Here <a href="https://code-africa.netlify.app/index.html">https://code-africa.netlify.app/index.html</a> <br>
 View apk file here : <a href="https://github.com/abdul-matin0/android_Code-Africa/tree/master/APKfile" target="_blank">https://github.com/abdul-matin0/android_Code-Africa/tree/master/APKfile/</a>
 <br><br>
 <strong>If for some reason you run the app from android studio and get an error message saying : "Entry name 'META-INF/androidx.vectordrawable_vectordrawable.version' collided", In Android Studio Go to Menu Build > Rebuild Project and then run the app.</strong>
